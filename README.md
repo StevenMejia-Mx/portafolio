@@ -1,22 +1,23 @@
-# [Portafolio personal]
+# Portafolio personal
 
-[Una pagina web para mi portafolio]
+Una pagina web para mi portafolio
 
-**Sitio publicado:** [https://stevenmejia-mx.github.io/portafolio/]
+**Sitio publicado:** https://stevenmejia-mx.github.io/portafolio/
 
 ## Objetivo
-[Este sitio se realizo en base a la Actividad 2 del Laboratorio de Programación Web, donde los requisitos eran, armar un proyecto con HTML y CSS elijiendo un tipo de proyecto asignado por el profesor.]
+Este sitio se realizó en base a la Actividad 2 del Laboratorio de Programación Web, donde los requisitos eran, armar un proyecto con HTML y CSS eligiendo un tipo de proyecto.
 
 ## Tecnologías
-- [HTML5 Semántico]
-- [Flexbox]
-- [Media queries]
-- [Git y GitHub Pages]
+- HTML5 Semántico
+- CSS3
+- Flexbox
+- Media queries
+- Git y GitHub Pages
 
 ## Estructura del sitio
-- **Inicio:** [Lugar donde se muestra la informacion principal del portafolio.]
-- **Proyectos:** [Lugar donde se encuentran los proyectos realizados a lo largo de mi carrera]
-- **Contacto:** [Lugar que contiene los datos escenciales para contactarme, incluyendo un formulario maqueta por lo cual no tiene servidor]
+- **Inicio:** Lugar donde se muestra la información principal del portafolio.
+- **Proyectos:** Lugar donde se encuentran los proyectos realizados a lo largo de mi carrera, esta sección corresponde a Servicios/Productos de la actividad.
+- **Contacto:** Lugar que contiene los datos escenciales para contactarme, incluyendo un formulario maqueta por lo cual no tiene servidor
 
 ## Capturas
 ### Vista de escritorio
@@ -34,8 +35,11 @@
 ![Página de contacto en vista movil](capturas/movil-contacto.png)
 
 ## Resultados de validación
+Los cuatro archivos del proyecto (los tres HTML y la hoja de estilos CSS) se validaron con los validadores del W3C, y ninguno presentó errores.
 ![Capturas para la validacion de index.html](capturas/validacion-index.png)
 
 ![Capturas para la validacion de proyectos.html](capturas/validacion-proyectos.png)
 
 ![Capturas para la validacion de contacto.html](capturas/validacion-contacto.png)
+
+![Capturas para la validacion de styles.css](capturas/validacion-css.png)
