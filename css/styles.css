@@ -1,0 +1,136 @@
+* { 
+    box-sizing: border-box; 
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #4a6b65;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+    gap: 20px;
+}
+header{
+    background-color: #4d7c8a;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+main{
+    flex: 1;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+}   
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: "Courier New", monospace;
+}
+.info{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.descripcion{
+    flex: 1;
+    max-width: 600px;
+}
+.foto img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.proyectos{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.proyectos article{
+    background-color: #1b4079;
+    border-radius: 25px;
+    padding: 20px;
+    flex: 1 1 250px;
+}
+.section-formulario{
+    background-color: #1b4079;
+    padding: 20px;
+    border-radius: 15px;
+}
+.formulario p{
+    display: flex;
+    flex-direction: column;
+}
+.contacto{
+    background-color: #4d7c8a;
+    border-radius: 15px;
+}
+.div-contacto{
+    padding: 10px;
+}
+input, textarea{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+button{
+    background-color: #4a6b65; 
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 30px;
+    align-self: center;
+    color: white;
+
+}
+button:hover{
+    background-color: #4d7c8a;
+}
+.linkc{
+    color: white;
+}
+@media (max-width: 768px){
+    .info{
+        flex-direction: column;
+    }
+    nav ul{
+        gap: 15px;
+    }
+    header, main, footer{
+        width: 95%;
+    }
+    .foto img{
+        width: 200px;
+        height: 200px;
+    }
+}
